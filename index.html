@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maris - Premium Seafood Fine Dining</title>
+    <meta name="description" content="Experience premium seafood prepared with passion and delivered fresh every day. Luxury dining inspired by the Mediterranean.">
+    <link rel="stylesheet" href="style.css">
+    <!-- faveIcon -->
+    <link rel="shortcut icon" href="./photos/iconWeb.jpg" type="image/x-icon" />
+</head>
+<body>
+
+    <div id="scroll-progress"></div>
+
+    <header class="main-header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                MARIS<span>.</span>
+            </a>
+            
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link active-link">Home</a></li>
+                    <li><a href="#dishes" class="nav-link">Menu</a></li>
+                    <li><a href="#offers" class="nav-link">Offers</a></li>
+                    <li><a href="#about" class="nav-link">Our Story</a></li>
+                    <li><a href="#why-us" class="nav-link">Features</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#contact" class="btn btn-secondary nav-cta-btn">Book Table</a>
+                <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <div class="hero-parallax-bg"></div>
+            <div class="hero-overlay"></div>
+            
+            <div class="hero-content container">
+                <span class="hero-tagline reveal-fade">Exquisite Culinary Artistry</span>
+                <h1 class="hero-title reveal-up">Fresh From The Ocean <br>To Your Table</h1>
+                <p class="hero-subtitle reveal-up">Experience premium seafood prepared with passion, sourced sustainably, and delivered fresh every single day.</p>
+                <div class="hero-actions reveal-up">
+                    <a href="#dishes" class="btn btn-primary ripple">Order Now</a>
+                    <a href="#contact" class="btn btn-outline ripple">Reserve Table</a>
+                </div>
+            </div>
+
+            <div class="wave-container">
+                <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 120 28" preserveAspectRatio="none" shape-rendering="auto">
+                    <defs>
+                        <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s58 18 88 18 58-18 88-18 58 18 88 18v44h-352z" />
+                    </defs>
+                    <g class="parallax">
+                        <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(248, 251, 255, 0.7" />
+                        <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(248, 251, 255, 0.5)" />
+                        <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(248, 251, 255, 0.3)" />
+                        <use xlink:href="#gentle-wave" x="48" y="7" fill="#F8FBFF" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <section id="dishes" class="dishes-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <span class="sub-title">Chef's Recommendations</span>
+                    <h2 class="section-title">Featured Masterpieces</h2>
+                    <div class="title-devider"></div>
+                </div>
+
+                <div class="dishes-grid">
+                    <div class="dish-card glass-card reveal-up">
+                        <div class="dish-img-container">
+                            <img src="./photos/p1.avif" alt="Pan-Seared Salmon" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3 class="dish-name">Pan-Seared Atlantic Salmon</h3>
+                            <p class="dish-desc">Crispy skin salmon served over wild asparagus, glazed with an estate citrus-herb reduction.</p>
+                            <div class="dish-meta">
+                                <span class="dish-price">$38.00</span>
+                                <button class="btn-circle ripple" aria-label="Add to order">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dish-card glass-card reveal-up">
+                        <div class="dish-img-container">
+                            <img src="./photos/p2.jpg" alt="Garlic Butter Shrimp" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3 class="dish-name">Mediterranean Jumbo Shrimp</h3>
+                            <p class="dish-desc">Tiger prawns pan-fried in garlic-infused virgin olive oil, white wine splash, and toasted rustic bread.</p>
+                            <div class="dish-meta">
+                                <span class="dish-price">$34.00</span>
+                                <button class="btn-circle ripple" aria-label="Add to order">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dish-card glass-card reveal-up">
+                        <div class="dish-img-container">
+                            <img src="./photos/p3.jpg" alt="Thermidor Lobster" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3 class="dish-name">Imperial Lobster Thermidor</h3>
+                            <p class="dish-desc">Live Maine lobster stuffed with a rich, creamy mixture of cognac, egg yolks, and gruyère cheese.</p>
+                            <div class="dish-meta">
+                                <span class="dish-price">$65.00</span>
+                                <button class="btn-circle ripple" aria-label="Add to order">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dish-card glass-card reveal-up">
+                        <div class="dish-img-container">
+                            <img src="./photos/p4.avif" alt="Grand Seafood Platter" class="dish-img">
+                        </div>
+                        <div class="dish-info">
+                            <h3 class="dish-name">Maris Signature Platter</h3>
+                            <p class="dish-desc">A premium cold and hot arrangement of fresh oysters, king crab legs, mussels, and seared scallops.</p>
+                            <div class="dish-meta">
+                                <span class="dish-price">$89.00</span>
+                                <button class="btn-circle ripple" aria-label="Add to order">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="offers" class="offers-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <span class="sub-title">Exclusive Dining Perks</span>
+                    <h2 class="section-title">Seasonal Celebrations</h2>
+                    <div class="title-devider"></div>
+                </div>
+
+                <div class="offers-grid">
+                    <div class="offer-card glow-card reveal-left">
+                        <div class="offer-badge">Save 20%</div>
+                        <div class="offer-content">
+                            <h3>The Majestic Family Feast</h3>
+                            <p>Bring the whole family together for a curatorial full-course journey featuring whole lobster, signature catch-of-the-day fish, and matching artisanal sides.</p>
+                            <a href="#contact" class="btn btn-secondary ripple">Claim Offer</a>
+                        </div>
+                    </div>
+
+                    <div class="offer-card glow-card reveal-up">
+                        <div class="offer-badge">Complimentary Wine</div>
+                        <div class="offer-content">
+                            <h3>Sunset Weekend Soiree</h3>
+                            <p>Reserve a table for dinner on Friday or Saturday evening and enjoy a complementary bottle of our private estate reserve White Burgundy wine selection.</p>
+                            <a href="#contact" class="btn btn-secondary ripple">Reserve Now</a>
+                        </div>
+                    </div>
+
+                    <div class="offer-card glow-card reveal-right">
+                        <div class="offer-badge">Free Delivery</div>
+                        <div class="offer-content">
+                            <h3>Fine Dining At Home</h3>
+                            <p>Experience standard-setting luxury restaurant service from the complete comfort of your residence. Free premium white-glove courier delivery on orders above $120.</p>
+                            <a href="#dishes" class="btn btn-secondary ripple">Order Online</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about-section section-padding">
+            <div class="container grid-two-col">
+                <div class="about-img-box reveal-left">
+                    <div class="about-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Chef Preparing Food" class="about-img-primary">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?auto=format&fit=crop&w=500&q=80" alt="Restaurant Atmosphere" class="about-img-secondary">
+                    </div>
+                </div>
+                
+                <div class="about-content-box reveal-right">
+                    <span class="sub-title">Our Heritage</span>
+                    <h2 class="section-title">Crafting Elegant Maritime Experiences</h2>
+                    <p class="about-text">Founded on the sweeping coastal horizons of the Mediterranean, Maris redefines nautical luxury dining. Every element of our venue—from ocean-toned architecture to daily culinary expeditions—is calibrated to celebrate raw, pristine ingredients.</p>
+                    <p class="about-text">Our world-renowned chefs work hand-in-hand with multi-generational local fishermen to ensure that every dish served represents sustainable ocean stewardship, matching timeless legacy techniques with bold modern gastronomy.</p>
+                    
+                    <div class="counter-grid">
+                        <div class="counter-item">
+                            <span class="counter-number" data-target="15000">0</span><span class="counter-plus">+</span>
+                            <p class="counter-label">Happy Guests</p>
+                        </div>
+                        <div class="counter-item">
+                            <span class="counter-number" data-target="42000">0</span><span class="counter-plus">+</span>
+                            <p class="counter-label">Dishes Served</p>
+                        </div>
+                        <div class="counter-item">
+                            <span class="counter-number" data-target="12">0</span><span class="counter-plus">+</span>
+                            <p class="counter-label">Years of Grace</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="why-us" class="why-us-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <span class="sub-title">The Maris Standard</span>
+                    <h2 class="section-title">Why Dine With Us</h2>
+                    <div class="title-devider"></div>
+                </div>
+
+                <div class="why-us-grid">
+                    <div class="feature-card reveal-up">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg>
+                        </div>
+                        <h3>Fresh Daily Catch</h3>
+                        <p>We source straight from local harbors every morning, tracking temperature and transit for premium, pristine seafood quality.</p>
+                    </div>
+
+                    <div class="feature-card reveal-up">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="1" y="3" width="15" height="13"></rect><polygon points="16 8 20 8 23 11 23 16 16 16 16 8"></polygon><circle cx="5.5" cy="18.5" r="2.5"></circle><circle cx="18.5" cy="18.5" r="2.5"></circle></svg>
+                        </div>
+                        <h3>White-Glove Delivery</h3>
+                        <p>Our rapid custom couriers preserve precise temperature plating from restaurant station straight to your home presentation.</p>
+                    </div>
+
+                    <div class="feature-card reveal-up">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M18 8h1a4 4 0 0 1 0 8h-1"></path><path d="M2 8h16v9a4 4 0 0 1-4 4H6a4 4 0 0 1-4-4V8z"></path><line x1="6" y1="1" x2="6" y2="4"></line><line x1="10" y1="1" x2="10" y2="4"></line><line x1="14" y1="1" x2="14" y2="4"></line></svg>
+                        </div>
+                        <h3>Michelin-Starred Artisans</h3>
+                        <p>Our kitchen is led by master culinary architects who treat seafood with deep oceanic respect and flawless technical precision.</p>
+                    </div>
+
+                    <div class="feature-card reveal-up">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
+                        </div>
+                        <h3>Elite Organic Sourcing</h3>
+                        <p>From organic cold-pressed oils to seasonal wild herbs, we pair our sea proteins with the finest global earth compounds.</p>
+                    </div>
+
+                    <div class="feature-card reveal-up">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        </div>
+                        <h3>Pristine Preparation</h3>
+                        <p>Exceeding international hygiene frameworks, our hyper-clean prep labs preserve pure taste notes safely.</p>
+                    </div>
+
+                    <div class="feature-card reveal-up">
+                        <div class="feature-icon">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line></svg>
+                        </div>
+                        <h3>Instant Concierge Booking</h3>
+                        <p>Seamlessly claim your ocean-view patio table or inner private enclave through our responsive automated web concierge.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <span class="sub-title">Guest Chronicles</span>
+                    <h2 class="section-title">Lauded By Connoisseurs</h2>
+                    <div class="title-devider"></div>
+                </div>
+
+                <div class="testimonials-slider-container reveal-up">
+                    <div class="testimonials-wrapper" id="testimonials-wrapper">
+                        <div class="testimonial-slide">
+                            <div class="testimonial-stars">
+                                &#9733;&#9733;&#9733;&#9733;&#9733;
+                            </div>
+                            <p class="testimonial-text">"The Imperial Lobster Thermidor here is a revelatory culinary experience. The delicate balance of cognac and cheese amplifies the sweetness of the fresh lobster perfectly. Unmatched seaside atmosphere."</p>
+                            <div class="testimonial-profile">
+                                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=150&q=80" alt="Julian Sterling" class="profile-img">
+                                <div class="profile-info">
+                                    <h4 class="profile-name">Julian Sterling</h4>
+                                    <span class="profile-title">Gastronomy Critic</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-slide">
+                            <div class="testimonial-stars">
+                                &#9733;&#9733;&#9733;&#9733;&#9733;
+                            </div>
+                            <p class="testimonial-text">"Maris has completely broken the template for modern fine dining. Their dedication to checking catch origin data and sourcing purely wild ingredients shines bright through every bite."</p>
+                            <div class="testimonial-profile">
+                                <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=150&q=80" alt="Elena Rostova" class="profile-img">
+                                <div class="profile-info">
+                                    <h4 class="profile-name">Elena Rostova</h4>
+                                    <span class="profile-title">Luxury Travel Blogger</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="testimonial-slide">
+                            <div class="testimonial-stars">
+                                &#9733;&#9733;&#9733;&#9733;&#9733;
+                            </div>
+                            <p class="testimonial-text">"An absolute triumph of coastal hospitality. The staff operates with an organic grace that rivals multi-generational european institutions, and the ocean panoramas are pure sensory magic."</p>
+                            <div class="testimonial-profile">
+                                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=150&q=80" alt="Marcus Vance" class="profile-img">
+                                <div class="profile-info">
+                                    <h4 class="profile-name">Marcus Vance</h4>
+                                    <span class="profile-title">Private Equity Director</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="slider-dots" id="slider-dots"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery-section section-padding">
+            <div class="container">
+                <div class="section-header text-center reveal-up">
+                    <span class="sub-title">Visual Narratives</span>
+                    <h2 class="section-title">The Maritime Gallery</h2>
+                    <div class="title-devider"></div>
+                </div>
+
+                <div class="gallery-masonry">
+                    <div class="gallery-item item-h2 reveal-up">
+                        <img src="./photos/p5.jpg" alt="Oysters On Ice" class="gallery-img">
+                        <div class="gallery-overlay-hover"><span>Pristine Oysters</span></div>
+                    </div>
+                    <div class="gallery-item reveal-up">
+                        <img src="https://images.unsplash.com/photo-1534482421-64566f976cfa?auto=format&fit=crop&w=600&q=80" alt="Seafood Soup Plating" class="gallery-img">
+                        <div class="gallery-overlay-hover"><span>Bouillabaisse</span></div>
+                    </div>
+                    <div class="gallery-item reveal-up">
+                        <img src="./photos/p6.jpg" alt="Luxury Table Setup" class="gallery-img">
+                        <div class="gallery-overlay-hover"><span>The Ocean Enclave</span></div>
+                    </div>
+                    <div class="gallery-item item-w2 reveal-up">
+                        <img src="https://images.unsplash.com/photo-1514944288352-fffac99f0bdf?auto=format&fit=crop&w=1000&q=80" alt="Catch Cooking Process" class="gallery-img">
+                        <div class="gallery-overlay-hover"><span>Artisanal Searing</span></div>
+                    </div>
+                    <div class="gallery-item reveal-up">
+                        <img src="./photos/p7.jpg" alt="Grilled Octopus" class="gallery-img">
+                        <div class="gallery-overlay-hover"><span>Charred Octopus</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section section-padding">
+            <div class="container grid-two-col">
+                <div class="contact-info-box reveal-left">
+                    <span class="sub-title">Coordinates</span>
+                    <h2 class="section-title">Chart Your Journey</h2>
+                    <p class="contact-intro-text">We look forward to hosting you. Reach out via our standard operational coordinates or submit your reservation request instantly.</p>
+                    
+                    <div class="info-links">
+                        <div class="info-link-item">
+                            <div class="info-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            </div>
+                            <div>
+                                <h4>Location</h4>
+                                <p>742 Maritime Promenade, Luxury Harbor district, NY 10001</p>
+                            </div>
+                        </div>
+
+                        <div class="info-link-item">
+                            <div class="info-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            </div>
+                            <div>
+                                <h4>Reservations</h4>
+                                <p>+1 (555) 839-4271 / reservations@marisrestaurant.com</p>
+                            </div>
+                        </div>
+
+                        <div class="info-link-item">
+                            <div class="info-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                            </div>
+                            <div>
+                                <h4>Serving Hours</h4>
+                                <p>Mon - Thu: 4:00 PM - 11:00 PM <br>Fri - Sun: 12:00 PM - Midnight</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="map-placeholder">
+                        <div class="map-overlay">
+                            <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon><line x1="8" y1="2" x2="8" y2="18"></line><line x1="16" y1="6" x2="16" y2="22"></line></svg>
+                            <span>Interactive Maritime Navigation Map Enclosed</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-box glass-card reveal-right">
+                    <h3>Secure An Enclave Table</h3>
+                    <form id="reservation-form" class="reservation-form" onsubmit="event.preventDefault();">
+                        <div class="form-group">
+                            <label for="form-name">Full Name</label>
+                            <input type="text" id="form-name" placeholder="E.g., Alexander Mercer" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-email">Email Address</label>
+                            <input type="email" id="form-email" placeholder="E.g., alex@mercer.com" required>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="form-guests">Guests</label>
+                                <select id="form-guests">
+                                    <option value="2">2 Persons</option>
+                                    <option value="4">4 Persons</option>
+                                    <option value="6">6 Persons</option>
+                                    <option value="8">Custom Enclave</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="form-date">Date</label>
+                                <input type="date" id="form-date" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-msg">Special Accommodations / Dietary Notes</label>
+                            <textarea id="form-msg" rows="4" placeholder="E.g., High-intolerance shellfish allergies or panoramic terrace request..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full ripple">Transmit Secure Request</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <a href="#" class="logo">MARIS<span>.</span></a>
+                <p>Establishing absolute milestones in nautical luxury gastronomy and structural culinary design since inception.</p>
+                <div class="footer-socials">
+                    <a href="#" aria-label="Instagram">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+                    </a>
+                    <a href="#" aria-label="Facebook">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+                    </a>
+                    <a href="#" aria-label="Twitter">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path></svg>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-links">
+                <h3>Refined Navigation</h3>
+                <ul>
+                    <li><a href="#hero">Top Operations</a></li>
+                    <li><a href="#dishes">Gastronomic Menu</a></li>
+                    <li><a href="#offers">Private Benefits</a></li>
+                    <li><a href="#about">Our Culinary Story</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-links">
+                <h3>Legal Commitments</h3>
+                <ul>
+                    <li><a href="#">Sourcing Compliance</a></li>
+                    <li><a href="#">Privacy Protocols</a></li>
+                    <li><a href="#">Reservation Guardrails</a></li>
+                    <li><a href="#">Accessibility Indexes</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h3>Nautical Headquarters</h3>
+                <p>742 Maritime Promenade,<br>Luxury Harbor District, NY 10001</p>
+                <p class="contact-highlight">Direct Line: +1 (555) 839-4271</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom text-center">
+            <p>&copy; 2026 Maris Luxury Dining Group. Crafted with Ocean Respect.</p>
+        </div>
+    </footer>
+
+    <button id="back-to-top" aria-label="Return to structural top">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+    </button>
+
+    <div class="lightbox-modal" id="lightbox-modal" aria-hidden="true">
+        <button class="lightbox-close" id="lightbox-close" aria-label="Close interactive window">&times;</button>
+        <div class="lightbox-content-box">
+            <img src="" alt="" id="lightbox-main-img">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
